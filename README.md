@@ -1,27 +1,29 @@
 
 <h1 align="center"> React Thermometer Chart </h1>
 
-<p align="center"> Thermometer Chart for ReactJS based projects</p>
+<p align="center"> Thermometer Chart for ReactJS</p>
 
 <hr/>
 
 
 
-<h3> See the Working Demo </h3>
 
-<a href="https://askteammate.com/npm/react-thermometer-chart"> See ReactJS Thermometer Chart in Action </a>
+[See ReactJS Thermometer Chart in Action!] (https://askteammate.com/npm/react-thermometer-chart)
 
-
+Basic Usages (Uses all default values)
 ```
 
-  <Thermometer setGoalLine=false width="100px" height="400px">
+  <Thermometer/>
+```
+This is equivalent to-
+```
+  <Thermometer width="100px" height="250px", steps={5}, minValue={0}, maxValue={100}/>
+```
 
-  </Thermometer>
-
-Another Example
-<Thermometer setGoalLine=false width="100px" height="400px">
-
-  </Thermometer>
+Another example 
+```
+<Thermometer width="100px" height="240px" steps={5} minValue={1000} maxValue={40000} currentValue={20000}> 
+</Thermometer>
 
 ```
 
